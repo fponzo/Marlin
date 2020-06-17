@@ -373,9 +373,9 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
   // Creality Ender-5 E3D V6 All Metal
-  #define DEFAULT_Kp 19.08
-  #define DEFAULT_Ki 1.48
-  #define DEFAULT_Kd 61.34
+  #define DEFAULT_Kp 21.31
+  #define DEFAULT_Ki 1.78
+  #define DEFAULT_Kd 63.73
 
 #endif // PIDTEMP
 

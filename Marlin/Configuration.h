@@ -76,7 +76,7 @@
 // build by the user have been successfully uploaded into firmware.
 #define STRING_CONFIG_H_AUTHOR "(LuckyStriker, Ender-5 with TMC2130, BLTouch and UBL)" // Who made the changes.
 #define SHOW_BOOTSCREEN
-#define STRING_SPLASH_LINE1 "1.1.9 05-Jul-20 rev1" // will be shown during bootup in line 1
+#define STRING_SPLASH_LINE1 "1.1.9 05-Jul-20 rev2" // will be shown during bootup in line 1
 #define STRING_SPLASH_LINE2 "2130/V6/BLT/UBL/BMC"   // will be shown during bootup in line 2
 
 /**
@@ -372,10 +372,10 @@
                                   // is more than PID_FUNCTIONAL_RANGE then the PID will be shut off and the heater will be set to min/max.
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
-  // Creality Ender-5 E3D V6 All Metal
-  #define DEFAULT_Kp 21.31
-  #define DEFAULT_Ki 1.78
-  #define DEFAULT_Kd 63.73
+  // Creality Ender-5 E3D V6 All Metal - X nozzle
+  #define DEFAULT_Kp 18.82
+  #define DEFAULT_Ki 1.45
+  #define DEFAULT_Kd 61.30
 
 #endif // PIDTEMP
 

@@ -76,8 +76,8 @@
 // build by the user have been successfully uploaded into firmware.
 #define STRING_CONFIG_H_AUTHOR "(LuckyStriker, Ender-5 with TMC2130, BLTouch and UBL)" // Who made the changes.
 #define SHOW_BOOTSCREEN
-#define STRING_SPLASH_LINE1 "1.1.9 17-Jun-20 rev1" // will be shown during bootup in line 1
-#define STRING_SPLASH_LINE2 "2130/V6/BLT/UBL"   // will be shown during bootup in line 2
+#define STRING_SPLASH_LINE1 "1.1.9 05-Jul-20 rev1" // will be shown during bootup in line 1
+#define STRING_SPLASH_LINE2 "2130/V6/BLT/UBL/BMC"   // will be shown during bootup in line 2
 
 /**
  * *** VENDORS PLEASE READ ***
@@ -838,7 +838,7 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR true  // TMC2100 + TiableLab BMC clone (false for Titan XTD)
+#define INVERT_E0_DIR true  // TMC2100 + TriangleLab BMC clone (false for Titan XTD)
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false

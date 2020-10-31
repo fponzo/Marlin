@@ -76,7 +76,7 @@
 // build by the user have been successfully uploaded into firmware.
 #define STRING_CONFIG_H_AUTHOR "(LuckyStriker, Ender-5 with TMC2130, BLTouch and UBL)" // Who made the changes.
 #define SHOW_BOOTSCREEN
-#define STRING_SPLASH_LINE1 "1.1.9 05-Jul-20 rev2" // will be shown during bootup in line 1
+#define STRING_SPLASH_LINE1 "1.1.10 31-Oct-20 rev1" // will be shown during bootup in line 1
 #define STRING_SPLASH_LINE2 "2130/V6/BLT/UBL/BMC"   // will be shown during bootup in line 2
 
 /**

@@ -76,7 +76,7 @@
 // build by the user have been successfully uploaded into firmware.
 #define STRING_CONFIG_H_AUTHOR "(LuckyStriker, Ender-5 with TMC2130, BLTouch and UBL)" // Who made the changes.
 #define SHOW_BOOTSCREEN
-#define STRING_SPLASH_LINE1 "1.1.10 31-Oct-20 rev1" // will be shown during bootup in line 1
+#define STRING_SPLASH_LINE1 "1.1.10 4-Nov-20 rev2" // will be shown during bootup in line 1
 #define STRING_SPLASH_LINE2 "2130/uSwissDD/BLT/UBL"   // will be shown during bootup in line 2
 
 /**
@@ -372,10 +372,10 @@
                                   // is more than PID_FUNCTIONAL_RANGE then the PID will be shut off and the heater will be set to min/max.
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
-  // Creality Ender-5 E3D V6 All Metal - X nozzle
-  #define DEFAULT_Kp 18.82
-  #define DEFAULT_Ki 1.45
-  #define DEFAULT_Kd 61.30
+  // Creality Ender-5 uSwiss DD
+  #define DEFAULT_Kp 31.83
+  #define DEFAULT_Ki 3.74
+  #define DEFAULT_Kd 67.79
 
 #endif // PIDTEMP
 
@@ -759,8 +759,8 @@
  *      O-- FRONT --+
  *    (0,0)
  */
-#define X_PROBE_OFFSET_FROM_EXTRUDER 54  // X offset: -left  +right  [of the nozzle]
-#define Y_PROBE_OFFSET_FROM_EXTRUDER 8  // Y offset: -front +behind [the nozzle]
+#define X_PROBE_OFFSET_FROM_EXTRUDER 42  // X offset: -left  +right  [of the nozzle]
+#define Y_PROBE_OFFSET_FROM_EXTRUDER 6  // Y offset: -front +behind [the nozzle]
 #define Z_PROBE_OFFSET_FROM_EXTRUDER 0   // Z offset: -below +above  [the nozzle]
 
 // Certain types of probes need to stay away from edges
@@ -1072,12 +1072,12 @@
  * Override if the automatically selected points are inadequate.
  */
 #if ENABLED(AUTO_BED_LEVELING_3POINT) || ENABLED(AUTO_BED_LEVELING_UBL)
-  #define PROBE_PT_1_X 55
-  #define PROBE_PT_1_Y 55
-  #define PROBE_PT_2_X 165
-  #define PROBE_PT_2_Y 165
-  #define PROBE_PT_3_X 55
-  #define PROBE_PT_3_Y 165
+  #define PROBE_PT_1_X 50
+  #define PROBE_PT_1_Y 50
+  #define PROBE_PT_2_X 170
+  #define PROBE_PT_2_Y 170
+  #define PROBE_PT_3_X 50
+  #define PROBE_PT_3_Y 170
 #endif
 
 /**

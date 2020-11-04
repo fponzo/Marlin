@@ -1072,12 +1072,12 @@
  * Override if the automatically selected points are inadequate.
  */
 #if ENABLED(AUTO_BED_LEVELING_3POINT) || ENABLED(AUTO_BED_LEVELING_UBL)
-  #define PROBE_PT_1_X 110
-  #define PROBE_PT_1_Y 50
-  #define PROBE_PT_2_X 170
-  #define PROBE_PT_2_Y 170
-  #define PROBE_PT_3_X 50
-  #define PROBE_PT_3_Y 170
+  #define PROBE_PT_1_X 55
+  #define PROBE_PT_1_Y 55
+  #define PROBE_PT_2_X 165
+  #define PROBE_PT_2_Y 165
+  #define PROBE_PT_3_X 55
+  #define PROBE_PT_3_Y 165
 #endif
 
 /**

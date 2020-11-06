@@ -76,7 +76,7 @@
 // build by the user have been successfully uploaded into firmware.
 #define STRING_CONFIG_H_AUTHOR "(LuckyStriker, Ender-5 with TMC2130, BLTouch and UBL)" // Who made the changes.
 #define SHOW_BOOTSCREEN
-#define STRING_SPLASH_LINE1 "1.1.10 4-Nov-20 rev2" // will be shown during bootup in line 1
+#define STRING_SPLASH_LINE1 "1.1.10 6-Nov-20 rev1" // will be shown during bootup in line 1
 #define STRING_SPLASH_LINE2 "2130/uSwissDD/BLT/UBL"   // will be shown during bootup in line 2
 
 /**
@@ -1044,7 +1044,7 @@
   // #define MESH_EDIT_GFX_OVERLAY   // Display a graphics overlay while editing the mesh
 
   #define MESH_INSET 0              // Set Mesh bounds as an inset region of the bed
-  #define GRID_MAX_POINTS_X 12      // Don't use more than 15 points per axis, implementation limited.
+  #define GRID_MAX_POINTS_X 3      // Don't use more than 15 points per axis, implementation limited.
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
   #define UBL_MESH_EDIT_MOVES_Z     // Sophisticated users prefer no movement of nozzle
@@ -1072,12 +1072,12 @@
  * Override if the automatically selected points are inadequate.
  */
 #if ENABLED(AUTO_BED_LEVELING_3POINT) || ENABLED(AUTO_BED_LEVELING_UBL)
-  #define PROBE_PT_1_X 50
+  #define PROBE_PT_1_X 112.5
   #define PROBE_PT_1_Y 50
-  #define PROBE_PT_2_X 170
-  #define PROBE_PT_2_Y 170
+  #define PROBE_PT_2_X 175
+  #define PROBE_PT_2_Y 175
   #define PROBE_PT_3_X 50
-  #define PROBE_PT_3_Y 170
+  #define PROBE_PT_3_Y 175
 #endif
 
 /**
